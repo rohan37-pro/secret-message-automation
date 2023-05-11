@@ -14,8 +14,11 @@ python pyascii_converter.py<br>
 enter : hello      <-- enter you text here to convert into python code<br>
 {chr(104)}{chr(101)}{chr(108)}{chr(108)}{chr(111)}     <-- output will look like this <br>
 
-now copy the output and paste it in f string -->  f" " <br>
+now copy the output and paste it in f string -->  pyautogui.typewrite( f" " )    <-- you can find this function in automation.py <br>
 
 pyautogui.typewrite(f"{chr(104)}{chr(101)}{chr(108)}{chr(108)}{chr(111)}")<br>
 the above line is the same as :<br>
 pyautogui.typewrite("hello")<br>
+
+now run automation.py : <br>
+python automation.py <br>
